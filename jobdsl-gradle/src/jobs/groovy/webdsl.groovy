@@ -125,10 +125,10 @@ def websites = [
 
 //Specify the full intergration branch name
 def integrationBranches = [
-	'http://www.praqma.com':'gh-pages',
+//	'http://www.praqma.com':'gh-pages',
 	'http://www.josra.org':'master',
-        'http://new.code-conf.com':'gh-pages',
-        'http://www.lakruzz.com':'master'
+  //      'http://new.code-conf.com':'gh-pages',
+   //     'http://www.lakruzz.com':'master'
 ]
 
 //The 'verify' job is the one that has to pass the tollgate criteria. For websites this is: jekyll build
